@@ -1,0 +1,13 @@
+python3 printnum.py
+
+nuitka printnum.py --python-version='3.5'
+
+nuitka printnum.py --python-version='3.5' --standalone 
+
+nuitka printnum.py --python-version='3.5' --generate-c++-only
+
+nuitka printnum.py --python-version='3.5' --module
+
+
+
+

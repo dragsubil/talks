@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript"
+        src="brython_dist.js"></script>
+    </head>
+
+<body>
+
+<body onload="brython(1)">
+
+<script type="text/javascript">
+function Rectangle(le,br){
+    this.le = le
+    this.br = br
+    this.surface = function(){return le*br}
+}
+</script>
+
+
+</body>
+</html>
+
+<script type="text/python">
+from browser import alert, window
+from javascript import JSConstructor
+
+rectangle = JSConstructor(window.Rectangle)
+alert(rectangle(10,10).surface())
+</script>

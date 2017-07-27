@@ -1,0 +1,19 @@
+Title: Obscure Python Implementations
+
+Duration: 20 minutes
+
+Description:
+
+When people talk about using Python, they are usually
+referring to the most common *implementation* of Python - CPython.
+Some talk about using PyPy or Jython or IronPython. 
+
+In this talk, I'd like to present some of the more obscure python implementations,
+the ones that only very few might have heard about and also talk about their features and
+the reasons for which you might want to use them.
+
+Amendment: Since I want to talk about the very obscure ones, I might talk about defunct implementations
+also. So for those cases it might not make sense to talk about good reasons to use them (beyond just
+playing around with them for fun). 
+ 
+
